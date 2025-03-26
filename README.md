@@ -149,22 +149,39 @@ cmake --build .
 <details>
   <summary>Задание 3</summary>
     </p>
+    cd
 
 Конечно же ваша компания предоставляет примеры использования своих библиотек.
 Чтобы продемонстрировать как работать с библиотекой *formatter_ex*,
 вам необходимо создать два `CMakeList.txt` для двух простых приложений:
 * *hello_world*, которое использует библиотеку *formatter_ex*;
 * *solver*, приложение которое испольует статические библиотеки *formatter_ex* и *solver_lib*.
-
-**Удачной стажировки!**
-
-## Links
-- [Основы сборки проектов на С/C++ при помощи CMake](https://eax.me/cmake/)
-- [CMake Tutorial](http://neerc.ifmo.ru/wiki/index.php?title=CMake_Tutorial)
-- [C++ Tutorial - make & CMake](https://www.bogotobogo.com/cplusplus/make.php)
-- [Autotools](http://www.gnu.org/software/automake/manual/html_node/Autotools-Introduction.html)
-- [CMake](https://cgold.readthedocs.io/en/latest/index.html)
-
+<br>
 ```
-Copyright (c) 2015-2021 The ISC Authors
+cd ../../hello_world_application
+```
+Повторяем действия, аналогичные тем, которые мы выполняли в предыдущих заданиях
+<br>
+```
+vim CMakeList.txt
+```
+
+Текст файла `CMakeList.txt`
+```
+cmake_minimum_required(VERSION 3.22)
+
+project(hello_world)
+
+include_directories("../formatter_ex_lib/")
+
+add_executable(hello_world hello_world.cpp)
+
+add_subdirectory("../formatter_ex_lib/" formatter_ex_lib)
+
+target_link_libraries(hello_world formatter_ex_lib)
+```
+Далее собираем файл
+```
+cmake ..
+cmake --build .
 ```
