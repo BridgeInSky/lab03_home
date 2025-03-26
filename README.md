@@ -63,7 +63,7 @@ cmake --build .
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/BridgeInSky/workspace/projects/lab03/formatter_lib/build
+-- Build files have been written to: /home/liza/workspace/projects/lab03/formatter_lib/build
 ```
 Вывод 2
 ```
@@ -106,9 +106,50 @@ target_include_directories(formatter_ex_lib PUBLIC
 				"../formatter_ex_lib"
 				"../formatter_lib")
 ```
+Можем проверить, записался ли файл с помощью утилиты ```cat``` <br>
+Теперь произведём сборку
+```
+mkdir build
+cd build
+cmake ..
+cmake --build .
+```
+Получили на выходе:
+<br>
+Вывод 1:
+```
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/liza/workspace/projects/lab03/formatter_ex_lib/build
+```
+Вывод 2:
+```
+[ 25%] Building CXX object formatter_lib/CMakeFiles/formatter_lib.dir/formatter.cpp.o
+[ 50%] Linking CXX static library libformatter_lib.a
+[ 50%] Built target formatter_lib
+[ 75%] Building CXX object CMakeFiles/formatter_ex_lib.dir/formatter_ex.cpp.o
+[100%] Linking CXX static library libformatter_ex_lib.a
+[100%] Built target formatter_ex_lib
+```
+  </p>
+</details>
 
+<details>
+  <summary>Задание 3</summary>
+    </p>
 
-### Задание 3
 Конечно же ваша компания предоставляет примеры использования своих библиотек.
 Чтобы продемонстрировать как работать с библиотекой *formatter_ex*,
 вам необходимо создать два `CMakeList.txt` для двух простых приложений:
