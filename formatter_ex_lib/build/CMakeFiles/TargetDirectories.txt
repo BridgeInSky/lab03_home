@@ -1,0 +1,6 @@
+/home/liza/workspace/projects/lab03_home/formatter_ex_lib/build/CMakeFiles/formatter_ex.dir
+/home/liza/workspace/projects/lab03_home/formatter_ex_lib/build/CMakeFiles/edit_cache.dir
+/home/liza/workspace/projects/lab03_home/formatter_ex_lib/build/CMakeFiles/rebuild_cache.dir
+/home/liza/workspace/projects/lab03_home/formatter_ex_lib/build/formatter/CMakeFiles/formatter.dir
+/home/liza/workspace/projects/lab03_home/formatter_ex_lib/build/formatter/CMakeFiles/edit_cache.dir
+/home/liza/workspace/projects/lab03_home/formatter_ex_lib/build/formatter/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,12 @@
+/home/liza/workspace/projects/lab03_home/solver_application/build/CMakeFiles/equation.dir
+/home/liza/workspace/projects/lab03_home/solver_application/build/CMakeFiles/edit_cache.dir
+/home/liza/workspace/projects/lab03_home/solver_application/build/CMakeFiles/rebuild_cache.dir
+/home/liza/workspace/projects/lab03_home/solver_application/build/formatter_ex/CMakeFiles/formatter_ex.dir
+/home/liza/workspace/projects/lab03_home/solver_application/build/formatter_ex/CMakeFiles/edit_cache.dir
+/home/liza/workspace/projects/lab03_home/solver_application/build/formatter_ex/CMakeFiles/rebuild_cache.dir
+/home/liza/workspace/projects/lab03_home/solver_application/build/formatter_ex/formatter/CMakeFiles/formatter.dir
+/home/liza/workspace/projects/lab03_home/solver_application/build/formatter_ex/formatter/CMakeFiles/edit_cache.dir
+/home/liza/workspace/projects/lab03_home/solver_application/build/formatter_ex/formatter/CMakeFiles/rebuild_cache.dir
+/home/liza/workspace/projects/lab03_home/solver_application/build/solver/CMakeFiles/solver.dir
+/home/liza/workspace/projects/lab03_home/solver_application/build/solver/CMakeFiles/edit_cache.dir
+/home/liza/workspace/projects/lab03_home/solver_application/build/solver/CMakeFiles/rebuild_cache.dir

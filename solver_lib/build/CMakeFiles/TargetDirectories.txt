@@ -1,0 +1,3 @@
+/home/liza/workspace/projects/lab03_home/solver_lib/build/CMakeFiles/solver.dir
+/home/liza/workspace/projects/lab03_home/solver_lib/build/CMakeFiles/edit_cache.dir
+/home/liza/workspace/projects/lab03_home/solver_lib/build/CMakeFiles/rebuild_cache.dir
